@@ -3,7 +3,6 @@
     src: url(../fonts/IcoMoon-Free.ttf);
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -62,7 +61,6 @@ body {
     color: #212121;
 }
 
-
 .menu-link-active {
     color: #212121;
     /*    font-family: "Montserrat - Bold";*/
@@ -114,7 +112,10 @@ body {
     display: inline-block;
     letter-spacing: 3.6px;
     position: relative;
-    text-decoration-style: none;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 3px rgba(33, 33, 33, 0.35);
 }
 
 .round-button {
@@ -222,7 +223,7 @@ body {
 
 .btn-ghost-text {
     width: 158px;
-    color: #212121;
+    color: #6c6c6c;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -231,6 +232,10 @@ body {
     position: absolute;
     letter-spacing: 2.5px;
     margin-top: 10px;
+}
+
+.btn-ghost-text:hover {
+    color: #212121;
 }
 
 .tab-content {
@@ -388,7 +393,7 @@ body {
 .exclusive-product-text {
     position: absolute;
     padding-top: 186px;
-    padding-bottom: 185x;
+    padding-bottom: 185px;
     padding-left: 30px;
     width: 332px;
     height: 199px;
@@ -607,7 +612,6 @@ body {
     float: left;
 }
 
-
 .footer-footer>a {
     width: 349px;
     height: 12px;
@@ -741,7 +745,7 @@ body {
 }
 
 .refresh {
-    height: 29xp;
+    height: 29px;
     width: 42px;
     margin: 0 auto;
     margin-top: 70px;
@@ -830,11 +834,10 @@ body {
 .details-slider {
     margin-top: 170px;
     height: 670px;
-/*    background-color:blanchedalmond;*/
+    /*    background-color:blanchedalmond;*/
     width: 570px;
     float: left;
 }
-
 
 .details-slider-pagination {
     height: 70px;
@@ -858,14 +861,13 @@ body {
     align-items: center;
 }
 
-
 .details-content>* {
     text-align: center;
 }
 
 .details-content a {
     text-decoration: none;
-} 
+}
 
 .details-content-content {
     color: #212121;
@@ -918,6 +920,10 @@ body {
     align-items: center;
 }
 
+.btn-lg:hover {
+    box-shadow: 0 0 10px 5px rgba(33, 33, 33, 0.35);
+}
+
 .btn-lg>span {
     color: #ffffff;
     font-size: 22px;
@@ -926,7 +932,6 @@ body {
     letter-spacing: 4.4px;
     margin-right: 28px;
 }
-
 
 .social-links a {
     text-decoration: none;
