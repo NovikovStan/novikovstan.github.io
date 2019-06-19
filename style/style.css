@@ -859,6 +859,10 @@ body {
     text-align: center;
 }
 
+.details-content>a {
+    text-decoration: none;
+} 
+
 .details-content-content {
     color: #212121;
     font-size: 36px;
