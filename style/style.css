@@ -1,3 +1,9 @@
+@font-face {
+    font-family: icomoon;
+    src: url(../fonts/IcoMoon-Free.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -55,6 +61,7 @@ body {
 .menu-link:hover {
     color: #212121;
 }
+
 
 .menu-link-active {
     color: #212121;
@@ -585,6 +592,8 @@ body {
     height: 30px;
     position: absolute;
     bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-footer>p {
@@ -596,13 +605,8 @@ body {
     line-height: 26px;
     text-transform: uppercase;
     float: left;
-    margin-right: 158px;
 }
 
-.footer-footer>img {
-    margin-right: 172px;
-    float: left;
-}
 
 .footer-footer>a {
     width: 349px;
@@ -921,4 +925,32 @@ body {
     text-transform: uppercase;
     letter-spacing: 4.4px;
     margin-right: 28px;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: #6c6c6c;
+    float: left;
+    margin: 0 5px;
+}
+
+.fb-link:before {
+    font-family: icomoon!important;
+    content: "\ea91";
+}
+
+.tw-link:before {
+    font-family: icomoon;
+    content: "\ea96";
+}
+
+.gg-link:before {
+    font-family: icomoon;
+    content: "\ea8d";
+}
+
+.pt-link:before {
+    font-family: icomoon;
+    content: "\ead1";
 }
